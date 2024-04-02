@@ -43,7 +43,7 @@ export class AtualizaProdutoComponent implements OnInit {
       err => { alert("Erro ao atualizar") }
     );
 
-    this._router.navigate(["restrito/lista"])
+    this._router.navigate(["restrito/lista"]);
 
   }
 
